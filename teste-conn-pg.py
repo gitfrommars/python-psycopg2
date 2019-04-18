@@ -10,7 +10,7 @@ import subprocess
 
 def  connect_db( ):	
     try:
-        conn = psycopg2.connect("dbname='valemobi' user='Valemobi' host='10.208.96.105'  port='5432' password=''")
+        conn = psycopg2.connect("dbname='_@DBNAME@_' user='_@USR@_' host='_@HOST@_'  port='_@PORT@_' password='_@PWD@_'")
 #        conn = psycopg2.connect("dbname='valemobi' user='Valemobi' host='192.168.80.201'  port='15432' password=''")
         conn.close()
         return True
